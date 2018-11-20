@@ -66,6 +66,7 @@ a:hover {
 }
 
 nav {
+    float: right;
     margin-top: 20px;
     margin-right: 25px;
 }
@@ -106,4 +107,89 @@ opacity: 0;
     opacity: 100;
 }
 
+#google-apps {
+    margin-right: -15px;
+}
+
+#searchbox {
+    width: 271px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+img {
+    margin-top: 200px;
+}
+
+form {
+    height: 50%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+input[type="text"]{
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+    width: 584px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    
+}
+
+input:hover {
+    border-color: #a0a0a0 #b0b0b0 #b0b0b0 #b0b0b0; 
+    box-shadow: 0.1px 0.5px 0.5px black;
+}
+
+
+.search-buttons {
+    display: inline-block;
+    margin-left: 10px;
+    
+    text-align: center;
+    
+    width: 160.2px;
+    
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    
+    padding: 0 16px;
+    height: 36px;
+}
+
+.search-buttons:hover {
+    box-shadow: 10px 10px 10px rbga(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 1px 1px 1px rbga(0,0,0,0.1);
+    color: #222;
+}
+
+.botones {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barra {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
