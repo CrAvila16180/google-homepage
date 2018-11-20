@@ -193,3 +193,36 @@ input:hover {
     text-align: center;
 }
 
+
+.country {
+    padding: 10px 30px;
+    background-color: #eeeeee;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+    height: 20px;
+    padding: 10px 30px;
+    background-color: #eeeeee;
+    background-color: #eeeeee;
+    color: rgba(0,0,0,.54);
+    
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+.footer li a{
+    float: right;
+    color: #757575;
+}
+
+.bottom {
+    margin-top: 190px;
+}
+
+#left-list {
+    float: left;
+}
+
