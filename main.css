@@ -1,0 +1,38 @@
+html {margin: 0; padding: 0}
+
+@font-face {
+    font-family: Product;
+    src: url(fonts/regular.ttf);
+}
+
+@font-face {
+    font-family: Product-Bold;
+    src: url(fonts/bold.ttf);
+}
+
+@font-face {
+    font-family: Product-Italic;
+    src: url(fonts/italic.ttf);
+}
+
+@font-face {
+    font-family: Product-BI;
+    src: url(fonts/bold-italic.ttf);
+}
+
+b {
+    font-family: Product-Bold;
+}
+
+i {
+    font-family: Product-Italic;
+}
+
+.bi {
+    font-family: Product-BI;
+}
+
+body{
+    font-family: Product;
+}
+
