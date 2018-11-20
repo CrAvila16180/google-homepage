@@ -36,3 +36,54 @@ body{
     font-family: Product;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    padding: 5px;
+}
+
+.nav {
+    font-size: 13px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 85;
+    color: #424242;
+}
+
+nav {
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#login {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #4387fd,#4683ea);
+    color: #fff;
+    padding: 5px;
+    width: 109.09px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: -10px;
+}
+
+svg {
+    padding-left: 15px;
+}
+
+
