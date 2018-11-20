@@ -86,4 +86,24 @@ svg {
     padding-left: 15px;
 }
 
+#ga{
+
+background-color: #212121;
+color: white;
+font-size: 13px;
+width: 90px;
+padding: 5px 3px;
+margin-right: -80px;
+position: relative;
+float: right;
+margin-top: 20px;
+transform: translate(-20px, 10px);
+text-align: center;
+opacity: 0;
+}
+
+#google-apps:hover #ga{
+    opacity: 100;
+}
+
 
