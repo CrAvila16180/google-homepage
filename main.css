@@ -219,7 +219,9 @@ footer {
 }
 
 .bottom {
-    margin-top: 190px;
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
 }
 
 #left-list {
